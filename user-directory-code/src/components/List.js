@@ -3,13 +3,11 @@ function List(props) {
     return (
         <div id='textslides'>
             <h4>Person: {listItem.name.first} {listItem.name.last}</h4>
-            <h4>
-                From: {`${listItem.city}, ${listItem.country}`}
-                <br></br>
-                Job Title: {`${listItem.title}`}
-                <br></br>
-                Employer: {`${listItem.employer}`}
-            </h4>
+            <ul className='information'>
+                <li>From: {`${listItem.city}, ${listItem.country}`}</li>
+                <li>Job Title: {`${listItem.title}`}</li>
+                <li>Employer: {`${listItem.employer}`}</li>
+            </ul>
             <h2 id='movies-title'> Favorite Movies: </h2>
             <ol id='list-style'>
                 <li>{listItem.favoriteMovies[0]}</li>

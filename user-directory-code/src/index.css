@@ -77,10 +77,12 @@ body {
   bottom: 22%;
 }
 
-#information{
+.information{
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
+  list-style: none;
+  align-items: flex-start;
+
 }
 
 
