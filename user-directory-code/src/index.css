@@ -65,7 +65,7 @@ body {
   align-items: flex-start;
   flex-direction: column;
   position: absolute;
-  left: 10%;
+  left: 15%;
   bottom: 10%;
   font-size: 18px;
 }
@@ -73,8 +73,8 @@ body {
 #movies-title{
   display: flex;
   position: absolute;
-  left: 5%;
-  bottom: 22%;
+  left: 12%;
+  bottom: 24%;
 }
 
 .information{
@@ -82,12 +82,28 @@ body {
   flex-direction: column;
   list-style: none;
   align-items: flex-start;
-
+  margin: 10px;
+  position: absolute;
+  font-size: 24px;
+  left: 7%;
+  bottom: 45%;
 }
 
+.counter{
+  color:black;
+  display: flex;
+  position: absolute;
+  top: -4%;
+  right: 1%;
+}
 
-
-
+.person-name{
+  font-size: 50px;
+  display: flex;
+  position: absolute;
+  left: 10%;
+  text-decoration: underline;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

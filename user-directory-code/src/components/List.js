@@ -2,7 +2,7 @@ function List(props) {
     const { listItem } = props
     return (
         <div id='textslides'>
-            <h4>Person: {listItem.name.first} {listItem.name.last}</h4>
+            <h4 className='person-name'>{listItem.name.first} {listItem.name.last}</h4>
             <ul className='information'>
                 <li>From: {`${listItem.city}, ${listItem.country}`}</li>
                 <li>Job Title: {`${listItem.title}`}</li>

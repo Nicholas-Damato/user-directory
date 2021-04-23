@@ -37,6 +37,7 @@ class Slides extends Component {
             <div className='SlidesBox'>
                 {array[this.state.index]}
                 <Button handleNext={this.handleNext} handlePrevious={this.handlePrevious} />
+                <h4 className='counter'>{this.state.index + 1}/25</h4>
             </div>
         )
     }
